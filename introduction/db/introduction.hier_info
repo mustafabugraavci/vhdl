@@ -1,0 +1,7 @@
+|introduction
+switch_0 => ~NO_FANOUT~
+switch_1 => ~NO_FANOUT~
+LED_0 <= LED_0.DB_MAX_OUTPUT_PORT_TYPE
+LED_1 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
