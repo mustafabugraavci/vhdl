@@ -1,0 +1,80 @@
+|mux16to1
+w[15] => mux4to1:mux4.w3
+w[14] => mux4to1:mux4.w2
+w[13] => mux4to1:mux4.w1
+w[12] => mux4to1:mux4.w0
+w[11] => mux4to1:mux3.w3
+w[10] => mux4to1:mux3.w2
+w[9] => mux4to1:mux3.w1
+w[8] => mux4to1:mux3.w0
+w[7] => mux4to1:mux2.w3
+w[6] => mux4to1:mux2.w2
+w[5] => mux4to1:mux2.w1
+w[4] => mux4to1:mux2.w0
+w[3] => mux4to1:mux1.w3
+w[2] => mux4to1:mux1.w2
+w[1] => mux4to1:mux1.w1
+w[0] => mux4to1:mux1.w0
+s[0] => mux4to1:mux1.s[0]
+s[0] => mux4to1:mux2.s[0]
+s[0] => mux4to1:mux3.s[0]
+s[0] => mux4to1:mux4.s[0]
+s[1] => mux4to1:mux1.s[1]
+s[1] => mux4to1:mux2.s[1]
+s[1] => mux4to1:mux3.s[1]
+s[1] => mux4to1:mux4.s[1]
+s[2] => mux4to1:mux5.s[0]
+s[3] => mux4to1:mux5.s[1]
+f <= mux4to1:mux5.f
+
+
+|mux16to1|mux4to1:mux1
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+f <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux16to1|mux4to1:mux2
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+f <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux16to1|mux4to1:mux3
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+f <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux16to1|mux4to1:mux4
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+f <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux16to1|mux4to1:mux5
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+f <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
