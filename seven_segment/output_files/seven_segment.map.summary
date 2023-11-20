@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Mon Nov 20 11:46:58 2023
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Revision Name : seven_segment
+Top-level Entity Name : seven_segment
+Family : MAX II
+Total logic elements : 7
+Total pins : 11
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )
