@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Wed Nov 22 17:04:53 2023
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Revision Name : gated_d_latch
+Top-level Entity Name : gated_d_latch
+Family : MAX II
+Total logic elements : 1
+Total pins : 3
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )
