@@ -1,0 +1,11 @@
+Fitter Status : Successful - Fri Nov 24 17:18:41 2023
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Revision Name : flip_flop
+Top-level Entity Name : flip_flop
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 1 / 240 ( < 1 % )
+Total pins : 3 / 80 ( 4 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )
