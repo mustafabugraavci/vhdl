@@ -1,0 +1,11 @@
+Fitter Status : Successful - Mon Nov 27 16:12:51 2023
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Revision Name : shift_register
+Top-level Entity Name : shift_register
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 4 / 240 ( 2 % )
+Total pins : 12 / 80 ( 15 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )
